@@ -32,6 +32,7 @@ body {
 
 a{
     text-decoration: none;
+    color: #FFFFFF;
 }
 
 .title{
@@ -159,6 +160,15 @@ textarea:focus, input:focus{
 
 .tcase,.tdeath,.trecover{
     color: #F20049;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
 }
 
 @media only screen and (max-width:1440px) {
