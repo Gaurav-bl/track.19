@@ -161,7 +161,7 @@ textarea:focus, input:focus{
     color: #F20049;
 }
 
-@media screen and (max-width: 1440px) {
+@media only screen and (max-width:1440px) {
     .searchbar{
         width: 300px;
         height: 40px;
@@ -179,7 +179,7 @@ textarea:focus, input:focus{
     
 }
 
-@media screen and (max-width: 768px){
+@media only screen and (max-width: 768px){
     .body{
         background-position-y: 200px;
     }
