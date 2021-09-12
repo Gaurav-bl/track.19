@@ -23,7 +23,7 @@ body {
     justify-content: space-evenly;
     width: 100vw;
     background-color: #141F35;
-    background-image: url("virus_vector.png");
+    background-image: url("/assets/virus_vector.png");
     background-repeat: no-repeat;
     background-size: 100%;
     background-position-y: 100px;
@@ -185,6 +185,10 @@ textarea:focus, input:focus{
     .countryname{
         font-size: 32px;
         padding-bottom: 130px;
+    }
+
+    .footer{
+        font-size: 14px;
     }
     
 }
