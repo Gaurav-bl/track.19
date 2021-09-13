@@ -176,6 +176,13 @@ textarea:focus, input:focus{
     font-size: 20px;
 }
 
+
+  input::-webkit-calendar-picker-indicator {
+    opacity: 0;
+  }
+
+ 
+
 @media only screen and (max-width:1440px) {
     .searchbar{
         width: 300px;
