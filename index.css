@@ -218,4 +218,8 @@ textarea:focus, input:focus{
     .countryname{
         padding-bottom: 20px;
     }
+
+    .footer{
+        display: none;
+    }
 }
